@@ -1,0 +1,12 @@
+@media screen and (max-width: 700px) {
+  .navbar-right button {
+    opacity: 100%;
+  }
+
+  .navbar-right .dropdown {
+    opacity: 100%;
+  }
+  .navbar-right .content {
+    display: none;
+  }
+}

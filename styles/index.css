@@ -1,0 +1,49 @@
+.navbar-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  border: 2px solid black;
+  padding: 5px;
+}
+
+.navbar-left {
+  display: flex;
+  justify-content: left;
+}
+
+.navbar-right {
+  justify-content: right;
+  position: relative;
+  padding-right: 10px;
+}
+
+.navbar-right .content {
+  margin-bottom: 15px;
+  display: block;
+}
+
+.navbar-right .dropdown {
+  display: none;
+  text-align: center;
+  border: 2px solid black;
+  position: absolute;
+  right: -1px;
+  margin-top: 13px;
+  width: 100px;
+  opacity: 0%;
+}
+
+.navbar-right .dropdown div:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+.navbar-right button {
+  opacity: 0;
+}
+
+img {
+  width: 50px;
+}
